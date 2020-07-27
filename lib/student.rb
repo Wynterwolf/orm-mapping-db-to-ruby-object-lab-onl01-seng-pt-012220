@@ -1,4 +1,4 @@
-class Student
+class Student 
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
